@@ -94,11 +94,12 @@ namespace NArrange.Tests.CSharp
 			parameters.ReferencedAssemblies.Add("System.Xml.dll");
 			parameters.ReferencedAssemblies.Add("System.Core.dll");
 
-			var provider = targetCSharp6 ?
+			/* ToDo-FFETech: var provider = targetCSharp6 ?
 				new Microsoft.CodeDom.Providers.DotNetCompilerPlatform.CSharpCodeProvider() :
 				CSharpCodeProvider.CreateProvider("CSharp");
 
-			return provider.CompileAssemblyFromSource(parameters, source);
+			return provider.CompileAssemblyFromSource(parameters, source);*/
+			return null;
 		}
 
 		/// <summary>
