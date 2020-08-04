@@ -1,6 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+	<AssemblyName>narrange-console</AssemblyName>
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
 	<PackageId>NArrange.Console</PackageId>
@@ -12,6 +13,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\NArrange.Core\NArrange.Core.csproj" />
+    <ProjectReference Include="..\NArrange.CSharp\NArrange.CSharp.csproj" />
+    <ProjectReference Include="..\NArrange.VisualBasic\NArrange.VisualBasic.csproj" />
   </ItemGroup>
 
 </Project>

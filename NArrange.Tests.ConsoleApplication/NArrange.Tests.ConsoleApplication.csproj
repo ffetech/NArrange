@@ -16,7 +16,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\NArrange.Console\NArrange.ConsoleApplication.csproj" />
+    <ProjectReference Include="..\NArrange.Console\NArrange.Console.csproj" />
     <ProjectReference Include="..\NArrange.Tests.Core\NArrange.Tests.Core.csproj" />
     <ProjectReference Include="..\NArrange.Tests.CSharp\NArrange.Tests.CSharp.csproj" />
   </ItemGroup>
